@@ -1,0 +1,48 @@
+import java.util.Scanner;
+public class Baar {
+    public static void main(String[] args) {
+
+        System.out.println("WELCOME");
+        
+        Scanner a=new Scanner(System.in);
+    int Age;
+    System.out.println("ENTER YOUR AGE:");
+    Age=a.nextInt();
+    if (Age<=18) {
+        System.out.println("Hey! you can't come inside. !");
+        
+    } else {
+        System.out.println("Pls come inside"); 
+
+
+        System.out.println("BEERS OR WINES");
+    Scanner b=new Scanner(System.in);
+    int ch;
+    System.out.println("Press 1 for BEER & Press 2 for WINE");
+    ch=b.nextInt();
+    if (ch==1) {
+        System.out.println("Take your beere");
+    } else {
+       if (ch==2) {
+        System.out.println("Take your wine");
+           
+       } else {
+        System.out.println("Sry ! not in menu.");
+       }
+       } 
+    }
+    
+
+
+    }
+}   
+    
+
+    
+        
+
+   
+    
+
+    
+
